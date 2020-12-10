@@ -13,7 +13,7 @@
 .btn { border-radius: 0; }
 
 /* Custom emojis */
-.bunker-icon { background-image: url('https://nicksaltfoxu.ml/assets/images/bunker-icon.webp'); }
+.blobcatcookie { background-image: url('../images/blobcat_cookie.png'); }
 .pokerface-nick { background-image: url('https://nicksaltfoxu.ml/assets/images/pokerface-nick.png'); }
 .custom {
   background-image: url('../images/coffee.png');
@@ -26,4 +26,23 @@
 /* R e s p o n s i v e */
 @media (max-width: 550px) {
   .info-container { padding-left: 0; }
+}
+
+.rainbow_text_animated {
+  background: linear-gradient(to right, #FF0000, #FF6400, #FFF000, #2EFF00, #00FFDC, #0008FF, #FF00FF);
+  /* -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; */
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 0;
+  }
 }

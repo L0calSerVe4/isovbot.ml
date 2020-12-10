@@ -33,6 +33,6 @@ function readTextFile(file)
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    test = readTextFile("https://nicksaltfoxu.ml/versions/bunkerBot.inc/version")
+    test = readTextFile("https://isovbot.ml/assets/version")
     document.getElementById("bversion").innerText = test1
 })
