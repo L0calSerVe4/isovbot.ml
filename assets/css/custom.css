@@ -1,0 +1,29 @@
+/* Change a bit default ModestaCSS values */
+.fullscreen h1.title { margin-bottom: 0; letter-spacing: 2px; }
+.undertitle { font-style: italic; }
+.box-container p { font-size: 18px; margin-bottom: .2em; }
+
+/* Add a pointer to arrow <span> */
+.info-button { cursor: pointer; }
+
+/* Add some spacing to the info on "second page" for more depth */
+.info-container { padding-left: 2.5em; }
+
+/* Remove border-radius standard from ModestaCSS */
+.btn { border-radius: 0; }
+
+/* Custom emojis */
+.bunker-icon { background-image: url('https://nicksaltfoxu.ml/assets/images/bunker-icon.webp'); }
+.pokerface-nick { background-image: url('https://nicksaltfoxu.ml/assets/images/pokerface-nick.png'); }
+.custom {
+  background-image: url('../images/coffee.png');
+  vertical-align: -.3em;
+  height: 1.25em;
+  width: 1.25em;
+  background-size: 1.25em 1.25em;
+}
+
+/* R e s p o n s i v e */
+@media (max-width: 550px) {
+  .info-container { padding-left: 0; }
+}
