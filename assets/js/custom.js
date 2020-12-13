@@ -13,7 +13,7 @@ window.addEventListener('scroll', function() {
   if (scrollPosition >= 100) logoContainer.classList.add('arrow--scrolled')
   else logoContainer.classList.remove('arrow--scrolled')
 })
-  
+
 function readTextFile(file)
 {
     var rawFile = new XMLHttpRequest();
