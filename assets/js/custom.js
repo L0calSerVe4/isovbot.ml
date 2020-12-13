@@ -35,4 +35,18 @@ function readTextFile(file)
 document.addEventListener('DOMContentLoaded', function() {
     test = readTextFile("https://isovbot.ml/assets/version")
     document.getElementById("bversion").innerText = test1
+    var textArray = [
+        '🎄 Стандартный префикс: s! 🎄',
+        '🎄 Рандомный текст 🎄',
+        '🎄 Пугу-пугу 🎄'
+    ];
+    var randomNumber = Math.floor(Math.random()*textArray.length);
+    document.getElementById("randomtext").innerText = textArray[randomNumber]
 })
+
+// var textArray = [
+//     '🎄 Стандартный префикс: s! 🎄',
+//     '🎄 Рандомный текст 🎄',
+//     '🎄 Пугу-пугу 🎄'
+// ];
+// var randomNumber = Math.floor(Math.random()*textArray.length);
