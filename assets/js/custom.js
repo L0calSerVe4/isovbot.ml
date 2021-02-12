@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("bversion").innerText = test1
     var textArray = [
         '🎄 Стандартный префикс: s! 🎄',
-        '🎄 В боте 124 команд 🎄'
+        '🎄 В боте 129 команд 🎄'
     ]; 
     var randomNumber = Math.floor(Math.random()*textArray.length);
     document.getElementById("randomtext").innerText = textArray[randomNumber]
