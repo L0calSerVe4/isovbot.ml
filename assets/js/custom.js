@@ -38,7 +38,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var textArray = [
         'Стандартный префикс: s!',
         'В боте 75+ команд!',
-        'Тот самый межсерверный бот'
+        'Тот самый межсерверный бот',
+        'Interserver 🌀',
+        'Межсервер 🌀'
     ]; 
     var randomNumber = Math.floor(Math.random()*textArray.length);
     document.getElementById("randomtext").innerText = textArray[randomNumber]
