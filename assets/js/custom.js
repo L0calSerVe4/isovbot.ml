@@ -36,8 +36,9 @@ document.addEventListener('DOMContentLoaded', function() {
     test = readTextFile("https://isovbot.ml/assets/version")
     document.getElementById("bversion").innerText = test1
     var textArray = [
-        '🎄 Стандартный префикс: s! 🎄',
-        '🎄 В боте 130+ команд! 🎄'
+        'Стандартный префикс: s!',
+        'В боте 75+ команд!',
+        'Тот самый межсерверный бот'
     ]; 
     var randomNumber = Math.floor(Math.random()*textArray.length);
     document.getElementById("randomtext").innerText = textArray[randomNumber]
